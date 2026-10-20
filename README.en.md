@@ -9,7 +9,7 @@ It handles both the macros in a character's folder and the "file slots" (A-D) on
 
 > This repository contains only the description and the terms of use for the distributed files. The source code is not published.
 
-![Main window (two panes showing the macros of different slots) - the screenshots show the Japanese display](images/screen-main.jpg)
+![Main window (two panes showing the macros of different slots)](images/screen-main-en.jpg)
 
 ## Please read first
 
@@ -33,9 +33,9 @@ It handles both the macros in a character's folder and the "file slots" (A-D) on
 - The original files are backed up automatically every time you load
 - **Display language switching between Japanese and English** ([Language / 言語] in the menu)
 
-![The edit window and the helper](images/screen-helper.jpg)
+![The edit window and the helper](images/screen-helper-en.jpg)
 
-![Find / Replace (across all books)](images/screen-search.jpg)
+![Find / Replace (across all books)](images/screen-search-en.jpg)
 
 ## How to use
 
