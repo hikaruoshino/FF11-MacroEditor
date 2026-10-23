@@ -5,7 +5,7 @@
 A Windows tool for editing FFXI macros on your PC without starting the game.
 It handles both the macros in a character's folder and the "file slots" (A-D) on the character selection screen.
 
-**Download from [Releases](../../releases).** Extract the zip and run `MacroEditor.exe` (no installation). The display language can be switched between Japanese and English from the menu ([Language / 言語]); it starts in Japanese if Windows is set to Japanese, and in English otherwise.
+**Download from [Releases](../../releases).** Extract the zip and run `MacroEditor.exe` in the folder it creates (no installation; the folder holds several files, so keep them together). The tool is distributed in a form that does not unpack itself into a temporary folder at run time. The SHA256 of the zip is written on the Releases page. The display language can be switched between Japanese and English from the menu ([Language / 言語]); it starts in Japanese if Windows is set to Japanese, and in English otherwise.
 
 > This repository contains only the description and the terms of use for the distributed files. The source code is not published.
 
@@ -17,6 +17,7 @@ It handles both the macros in a character's folder and the "file slots" (A-D) on
 - **Unauthorized redistribution, copying, reposting, claiming the tool as your own work and commercial use are strictly prohibited.**
 - This tool is not officially approved. **Rewriting game files may carry a risk of usage restrictions and the like.** Use it at your own risk, only after you understand and accept this risk.
 - The author takes no responsibility for loss or corruption of data. Before you overwrite any game file, always make your own backup as well.
+- On the first launch, Windows SmartScreen may show a warning, because the tool is not code-signed and has little download history. If your antivirus reacts, check the SHA256 of the zip written on the Releases page, or do not use the tool.
 - **About the English client:** this tool has been checked in game with Japanese-client files only. Macro files from the English client are expected to use the same layout, but this has not been checked. Please back up first and try it on a slot you can afford to lose. If something does not work, please open an issue.
 
 ## What it can do
@@ -61,7 +62,7 @@ This tool does not write into the game's folder. Overwriting is always done by y
 ## Requirements
 
 - Windows 10 / 11
-- To see auto-translate phrases and item names by name, Windower's `res` folder is needed. If you put `MacroEditor.exe` in `windower\addons\MacroEditor\` it is found automatically. Otherwise choose it with [File] -> [Specify the Windower res folder...]
+- To see auto-translate phrases and item names by name, Windower's `res` folder is needed. If you put the extracted folder in `windower\addons\` (so that you get `windower\addons\MacroEditor\MacroEditor.exe`) it is found automatically. Otherwise choose it with [File] -> [Specify the Windower res folder...]
 
 ## Credit
 
