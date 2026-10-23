@@ -5,7 +5,7 @@
 A Windows tool for editing FFXI macros on your PC without starting the game.
 It handles both the macros in a character's folder and the "file slots" (A-D) on the character selection screen.
 
-**Download from [Releases](../../releases).** Just extract the zip and double-click `MacroEditor.exe` (no installation). The display language can be switched between Japanese and English from the menu ([Language / 言語]); it starts in your Windows display language.
+**Download from [Releases](../../releases).** Extract the zip and run `MacroEditor.exe` (no installation). The display language can be switched between Japanese and English from the menu ([Language / 言語]); it starts in Japanese if Windows is set to Japanese, and in English otherwise.
 
 > This repository contains only the description and the terms of use for the distributed files. The source code is not published.
 
@@ -14,11 +14,10 @@ It handles both the macros in a character's folder and the "file slots" (A-D) on
 ## Please read first
 
 - Read the [Terms of Use](TERMS.en.md) before using the tool. They are also shown on the first launch. Use the tool only if you agree.
-- **Unauthorized redistribution, copying, reposting, claiming the tool as your own work (claiming authorship by someone else) and commercial use are strictly prohibited.**
-- **Modifying, analyzing and decompiling this tool is prohibited.** Distributing modified versions is also prohibited.
+- **Unauthorized redistribution, copying, reposting, claiming the tool as your own work and commercial use are strictly prohibited.**
 - This tool is not officially approved. **Rewriting game files may carry a risk of usage restrictions and the like.** Use it at your own risk, only after you understand and accept this risk.
 - The author takes no responsibility for loss or corruption of data. Before you overwrite any game file, always make your own backup as well.
-- **About the English client:** this tool has been checked in game with Japanese-client files only. Macro files from the English client use the same layout, but they have not been checked. Please back up first and try it on a slot you can afford to lose. If something does not work, please open an issue.
+- **About the English client:** this tool has been checked in game with Japanese-client files only. Macro files from the English client are expected to use the same layout, but this has not been checked. Please back up first and try it on a slot you can afford to lose. If something does not work, please open an issue.
 
 ## What it can do
 
@@ -30,12 +29,12 @@ It handles both the macros in a character's folder and the "file slots" (A-D) on
 - Show and type auto-translate phrases and item names by name (when Windower is installed)
 - Helper: choose spells, abilities, weapon skills, auto-translate phrases, items and equipment sets from a list (filter by job, type, weapon type)
 - Find / Replace (Ctrl+F), export to / import from text, Undo (Ctrl+Z)
-- The original files are backed up automatically every time you load
-- **Display language switching between Japanese and English** ([Language / 言語] in the menu)
+- The original files are backed up automatically every time you load files for editing
+- Display language switching between Japanese and English ([Language / 言語] in the menu; the tool closes when you switch, and the change applies after you restart it)
 
 ![The edit window and the helper](images/screen-helper-en.jpg)
 
-![Find / Replace (across all books)](images/screen-search-en.jpg)
+![Find / Replace (across all books, or one book)](images/screen-search-en.jpg)
 
 ## How to use
 
@@ -57,7 +56,7 @@ It handles both the macros in a character's folder and the "file slots" (A-D) on
 
 First try it on a slot you can afford to lose, changing just one macro. Only the macros change; the other settings inside the slot are kept as they were when loaded.
 
-This tool does not write into the game's folder. Overwriting is always done by you yourself. It does not need to be run as administrator.
+This tool does not write into the game's folder. Overwriting is always done by you yourself. It does not need to be run as administrator, as long as you do not put it in a folder such as `Program Files` that needs administrator rights to write to. Settings, exports and backups are created next to the EXE.
 
 ## Requirements
 
