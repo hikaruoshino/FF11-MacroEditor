@@ -72,3 +72,9 @@ FF11タルタル3姉妹のFF11マクロ編集ツールのアイデアを参考�
 「ファイナルファンタジー」「FINAL FANTASY」「PlayOnline」は、株式会社スクウェア・エニックスの商標または登録商標です。このツールは、株式会社スクウェア・エニックスとは一切関係がありません。
 
 作者: hikaruoshino
+
+## 不具合・動作報告 / Feedback
+
+「動きました」の一言だけでも歓迎です。GitHub のアカウントがあれば、[Issues](../../issues/new/choose) から書き込めます (日本語・英語どちらでも)。
+
+A one-line "it works" is welcome too. With a GitHub account you can post from [Issues](../../issues/new/choose) (Japanese or English).

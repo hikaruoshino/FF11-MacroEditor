@@ -73,3 +73,7 @@ Built with reference to the ideas of the FF11 macro editing tool by "FF11 Taruta
 "FINAL FANTASY" and "PlayOnline" are trademarks or registered trademarks of Square Enix Co., Ltd. This tool has no relation whatsoever to Square Enix Co., Ltd.
 
 Author: hikaruoshino
+
+## Feedback
+
+A one-line "it works" is welcome too. With a GitHub account you can post from [Issues](../../issues/new/choose).
